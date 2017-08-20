@@ -53,17 +53,10 @@
         }
         this.loadTests = function () {
             if (this.name == "father") {
-<<<<<<< HEAD
                 this.alleles = sampleFather[babaOmoFactory.info.country];
             }
             else {
                 this.alleles = sampleChild[babaOmoFactory.info.country];
-=======
-                this.alleles = sampleFatherLoci;
-            }
-            else {
-                this.alleles = sampleChildLoci;
->>>>>>> 49fcd89a42c4c205ee58f72270372f532d399296
             }
             this.alleles.forEach(function (allele) {
                 allele.validate = function () { return (new AllelePair()).validate.call(allele) }

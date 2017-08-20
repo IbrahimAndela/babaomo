@@ -1,21 +1,13 @@
 ﻿[
   { "name":  "Sudan", "code":  "SDN", "active": false },
   { "name":  "Nigeria", "code":  "NIG", "active": true },
-<<<<<<< HEAD
   { "name":  "Benin Republic", "code":  "BEN", "active": true },
-=======
-  { "name":  "Benin Republic", "code":  "BEN", "active": false },
->>>>>>> 49fcd89a42c4c205ee58f72270372f532d399296
   { "name":  "Germany", "code":  "GER", "active": false },
   { "name":  "Spain", "code":  "SPN", "active": false },
   { "name":  "Brazil", "code":  "BRA", "active": false },
   { "name":  "China", "code":  "SHN", "active": false },
   { "name":  "Japan", "code":  "JAP", "active": false },
   { "name":  "Thailand", "code":  "THA", "active": false },
-<<<<<<< HEAD
   { "name":  "Canada", "code":  "CND", "active": true },
   { "name":  "Virginia", "code":  "VIR", "active": true }
-=======
-  { "name":  "Canada", "code":  "CND", "active": true }
->>>>>>> 49fcd89a42c4c205ee58f72270372f532d399296
 ]
