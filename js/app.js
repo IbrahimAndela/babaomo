@@ -55,6 +55,7 @@ function rootJsUrl(url) {
     return rootUrl('js/') + url;
 }
 
+<<<<<<< HEAD
 var sampleFather = {
     "NIG": [{ "name": "D3S1358", "allele1": 15, "allele2": 16 }, { "name": "D7S820", "allele1": 11, "allele2": 11 }, { "name": "VWA", "allele1": 13, "allele2": 16 }, { "name": "FGA", "allele1": 22, "allele2": 28 }, { "name": "D8S1179", "allele1": 13, "allele2": 14 }, { "name": "D21S11", "allele1": 28, "allele2": 32.2 }, { "name": "D18S51", "allele1": 17, "allele2": 18 }, { "name": "D5S818", "allele1": 8, "allele2": 12 }],
     "CND": [{ "name": "D3S1358", "allele1": 16, "allele2": 18 }, { "name": "D7S820", "allele1": 10, "allele2": 11 }, { "name": "VWA", "allele1": 14, "allele2": 16 }, { "name": "FGA", "allele1": 22, "allele2": 26 }, { "name": "D8S1179", "allele1": 14, "allele2": 14 }, { "name": "D21S11", "allele1": 27, "allele2": 30 }, { "name": "D18S51", "allele1": 14, "allele2": 18 }, { "name": "D5S818", "allele1": 9, "allele2": 12 }],
@@ -68,3 +69,90 @@ var sampleChild = {
     "BEN": [{ "name": "D3S1358", "allele1": 15, "allele2": 18 }, { "name": "D7S820", "allele1": 9, "allele2": 10 }, { "name": "VWA", "allele1": 14, "allele2": 16 }, { "name": "FGA", "allele1": 23, "allele2": 26 }, { "name": "D8S1179", "allele1": 14, "allele2": 14 }, { "name": "D21S11", "allele1": 30, "allele2": 31.2 }, { "name": "D18S51", "allele1": 14, "allele2": 16 }, { "name": "D5S818", "allele1": 9, "allele2": 14 }],
     "VIR": [{ "name": "D3S1358", "allele1": 15, "allele2": 18 }, { "name": "D7S820", "allele1": 9, "allele2": 10 }, { "name": "VWA", "allele1": 14, "allele2": 16 }, { "name": "FGA", "allele1": 23, "allele2": 26 }, { "name": "D8S1179", "allele1": 14, "allele2": 14 }, { "name": "D21S11", "allele1": 30, "allele2": 31.2 }, { "name": "D18S51", "allele1": 14, "allele2": 16 }, { "name": "D5S818", "allele1": 9, "allele2": 14 }]
 }
+=======
+var sampleFatherLoci = [
+    {
+        "name": "D3S1358",
+        "allele1": 15,
+        "allele2": 16
+    },
+    {
+        "name": "D7S820",
+        "allele1": 11,
+        "allele2": 11
+    },
+    {
+        "name": "VWA",
+        "allele1": 13,
+        "allele2": 16
+    },
+    {
+        "name": "FGA",
+        "allele1": 22,
+        "allele2": 28
+    },
+    {
+        "name": "D8S1179",
+        "allele1": 13,
+        "allele2": 14
+    },
+    {
+        "name": "D21S11",
+        "allele1": 28,
+        "allele2": 32.2
+    },
+    {
+        "name": "D18S51",
+        "allele1": 17,
+        "allele2": 18
+    },
+    {
+        "name": "D5S818",
+        "allele1": 8,
+        "allele2": 12
+    }
+]
+
+var sampleChildLoci = [
+    {
+        "name": "D3S1358",
+        "allele1": 16,
+        "allele2": 17
+    },
+    {
+        "name": "D7S820",
+        "allele1": 8,
+        "allele2": 11
+    },
+    {
+        "name": "VWA",
+        "allele1": 14,
+        "allele2": 16
+    },
+    {
+        "name": "FGA",
+        "allele1": 21,
+        "allele2": 28
+    },
+    {
+        "name": "D8S1179",
+        "allele1": 14,
+        "allele2": 15
+    },
+    {
+        "name": "D21S11",
+        "allele1": 28,
+        "allele2": 32.2
+    },
+    {
+        "name": "D18S51",
+        "allele1": 17,
+        "allele2": 18
+    },
+    {
+        "name": "D5S818",
+        "allele1": 8,
+        "allele2": 14
+    }
+]
+>>>>>>> 49fcd89a42c4c205ee58f72270372f532d399296
